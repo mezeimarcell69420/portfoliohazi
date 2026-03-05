@@ -83,3 +83,14 @@ behavior:"smooth"
 });
 
 }
+
+function goToProjects(){
+
+const section = document.getElementById("projects");
+
+section.scrollIntoView({
+behavior:"smooth"
+});
+
+}
+
